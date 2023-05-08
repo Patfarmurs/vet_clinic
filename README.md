@@ -1,40 +1,10 @@
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
-<!-- TABLE OF CONTENTS -->
+# Vet clinic database
 
 # 📗 Table of Contents
 
+- [Vet clinic database](#vet-clinic-database)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Vet Clinic ](#-vet-clinic-)
+- [📖 Vet clinic database ](#-vet-clinic-database-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -42,23 +12,21 @@ After you're finished please remove all the comments and instructions!
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
-    - [Install](#install)
-    - [Usage](#usage)
-    - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
+    - [👤 Salwa Ballouti:](#-salwa-ballouti)
+- [🔭 Future Features:](#-future-features)
+- [🤝 Contributing:](#-contributing)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet Clinic <a name="about-project"></a>
+# 📖 Vet clinic database <a name="about-project"></a>
 
-**Vet Clinic** is database of animals that are registered with our clinic.
+> A veterinary clinic database is a relational database designed to manage and store information related to the operation of a veterinary clinic. The database can be queried and updated using SQL commands, enabling efficient management and analysis of clinic data.
+
+**Vet clinic database** is a SQL database to store and manage data of a veterinary clinic.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,14 +35,14 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li>N/A</li>
+    <li><a href="https://sql.sh/">SQL</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>N/A</li>
+    <li></li>
   </ul>
 </details>
 
@@ -89,8 +57,15 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **Database**
-- **Animals Table**
+- **The user can create, insert and query the  database table using this project.**
+- **Efficient Data Management**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,83 +73,28 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
-To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
 In order to run this project you need:
+- Installed Git.
+- Installed PostgreSQL RDBMS
+- Create a local directory that you want to clone the repository.
+- Open the command prompt in the created directory.
+- On the terminal run this command git clone https://github.com/Patfarmurs/vet_clinic.git
 
-<!--
-Example command:
 
-```sh
- gem install rails
-```
- -->
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+```sh 
+git clone https://github.com/Patfarmurs/vet_clinic.git
+  ```
+  ```sh 
+  cd vet_clinic_database
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -182,39 +102,27 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
 
-- GitHub: [@Patfarmurs](https://github.com/Patfarmurs)
-- Twitter: [@MukulayengeP](https://twitter.com/MukulayengeP)
-- LinkedIn: [Patrick Mukula](https://linkedin.com/in/Patrick Mukula)
+### 👤 **Patrick Mukula**:
+- GitHub: [@Patrick mukula](https://github.com/Patfarmurs)
+- Twitter: [@Patrick mukula](https://twitter.com/MukulayengeP)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/Patrick-Mukula)
+
+# 🔭 Future Features:
+- Add more query to manage the database.
+- Integrate back-end.
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- **Database**
-- **Animals Table**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
+# 🤝 Contributing:
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-If you like this project don't forget to give it a star.
+If you liked this project, give it a ⭐️ and kindly send to me an e-mail expressing it, it would make my day and fuel my motivation.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -222,16 +130,10 @@ If you like this project don't forget to give it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my standup team member - @MuhammadUsmanAslam who helped me to complete the project.
+I would like to thank MuhammadUsmanAslam for helping me with the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
