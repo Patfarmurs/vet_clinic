@@ -24,23 +24,14 @@ CREATE TABLE specie (
 );
 
 
-CREATE TABLE vets (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(200) NOT NULL,
-    age INT NOT NULL,
-    date_of_graduation DATE NOT NULL
-);
+CREATE TABLE vets (id INT Generated ALWAYS AS IDENTITY PRIMARY KEY, 
+name VARCHAR(100), 
+age INT, 
+date_of_graduation DATE);
 
-CREATE TABLE specializations (
-    vets_id INT REFERENCES vets(id),
-    species_id INT REFERENCES species(id)
-);
+CREATE TABLE specializations (species_id INT CONSTRAINT fk_specializations_species_id REFERENCES species(id), vet_id INT CONSTRAINT fk_vet_id REFERENCES vets(id));
 
-CREATE TABLE visits (
-    vets_id INT REFERENCES vets(id),
-    animal_id INT REFERENCES animals(id),
-    date_of_visits DATE 
-);
+CREATE TABLE visits (animal_id INT CONSTRAINT fk_animal_id REFERENCES animals(id), vet_id INT CONSTRAINT fk_visits_vet_id REFERENCES vets(id), visited_date date NOT NULL DEFAULT CURRENT_DATE);
 
 
 ALTER TABLE animals DROP COLUMN id;
