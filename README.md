@@ -109,7 +109,7 @@ git clone https://github.com/Patfarmurs/vet_clinic.git
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/Patrick-Mukula)
 
 ### 👤 **Samson**:
-- GitHub: [@Patrick mukula](https://github.com/SamTush)
+- GitHub: [@Samson](https://github.com/SamTush)
 
 # 🔭 Future Features:
 - Add more query to manage the database.
