@@ -23,6 +23,7 @@ id SERIAL PRIMARY KEY,
 total_amount DECIMAL,
 generated_at TIMESTAMP,
 payed_at TIMESTAMP,
+medical_history_id INT,
 CONSTRAINT FK_medical_history FOREIGN KEY (medical_history_id) REFERENCES medical_histories (id)
 );
 
